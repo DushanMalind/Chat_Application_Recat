@@ -28,6 +28,9 @@ const renderMessages =() =>{
                         : <TheirMessage />
                     }
                 </div>
+                <div className="read-receipts" style={{marginRight:isMyMessage ? '18px' : '0px', marginLeft:isMyMessage ? '0px' : '68px'}}>
+                read-receipts
+                </div>
             </div>
         )
     })
@@ -37,7 +40,7 @@ renderMessages();
 
 return (
     <div>
-        ChatFeed
+        
     </div>
 );
 
