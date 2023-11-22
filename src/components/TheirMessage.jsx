@@ -1,7 +1,7 @@
-const TheirMessage =() =>{
+const TheirMessage =({lastMessage,messsage}) =>{
     return (
         <div>
-            TheirMessage 
+            TheirMessage  
         </div>
     );
 }
