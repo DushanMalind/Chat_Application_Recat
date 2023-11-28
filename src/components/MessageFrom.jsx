@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { sendMessage, isTyping } from "react-chat-engine";
 
 const MessageFrom =() =>{
     const [value, setValue]=useState('');
@@ -8,8 +9,8 @@ const MessageFrom =() =>{
     }
 
 
-    const handleChange =() =>{
-
+    const handleChange =(event) =>{
+        setValue(event.target.value);
     }
 
     return (
